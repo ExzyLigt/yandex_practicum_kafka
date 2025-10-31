@@ -1,0 +1,37 @@
+# Java
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Maven
+target/
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+# Maven Wrapper кеши (сам wrapper обычно коммитят, поэтому .mvn/ не игнорим)
+.mvn/timing.properties
+
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code (опционально)
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Docker / локальные конфиги
+.env
+docker-compose.override.yml
+
+# Логи и PID
+logs/
+*.pid
+
+# Кэш/временные
+*.swp
+*.swo
